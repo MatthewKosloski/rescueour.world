@@ -1,0 +1,11 @@
+.o-heading {
+	text-align: center;
+	margin-bottom: vr(3);
+}
+
+.o-heading__subtitle {
+	@include font-size(14);
+	text-transform: uppercase;
+	color: $fog;
+	font-weight: 700;
+}

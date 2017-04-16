@@ -1,0 +1,22 @@
+//---------------------------
+//
+// Utilities
+// =========
+//
+// Simple utility/helper classes
+// for font-size, text-align,
+// clearfix, etc.
+//
+//---------------------------
+
+.u-ta-right {
+	text-align: right;
+}
+
+.u-clearfix {
+	&::after {
+	    content:" ";
+	    display:block;
+	    clear:both;
+	}
+}

@@ -1,0 +1,17 @@
+.c-solution {
+	@include breakpoint(lg) {
+		margin-left: vr(1);
+		margin-right: vr(1);
+	}
+	text-align: center;
+	margin-bottom: vr(2);
+}
+
+.c-solution__icon {
+	@include font-size(60);
+	margin-bottom: vr(1);
+	display: block;
+	color: $green;
+}
+
+.c-solution__title {}

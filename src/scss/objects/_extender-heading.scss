@@ -1,0 +1,19 @@
+.o-extender-heading {
+	text-align: center;
+	margin: vr(3) 0 vr(5);
+}
+
+.o-extender-heading__extender {
+	margin-bottom: vr(3);
+}
+
+.o-extender-heading__title {
+	@include breakpoint(md) {
+		width: 65%;
+	}
+	@include typi((
+		null: 20px,
+		large: 32px
+	));
+	margin: 0 auto;
+}

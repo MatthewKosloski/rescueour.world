@@ -1,0 +1,43 @@
+{
+	"paths": {
+		"src": "./src",
+		"dest": "./public"
+	},
+	"tasks": {
+		"handlebars": {
+			"src": "./src/pages/*.hbs",
+			"data": {
+			},
+			"options": {
+				"batch": ["./src/partials"]
+			},
+			"rename": {"extname": ".html"}
+		},
+		"assets": {
+			"src": "./src/assets/**/*",
+			"dest": "./public/assets"
+		},
+		"htmlmin": {
+			"src": "./public/*.html"
+		},
+		"scss": {
+			"src": "scss/main.scss",
+			"dest": "css"
+		},
+		"cssnano": {
+			"src": "./public/css/main.css",
+			"rename": "main.min.css",
+			"dest": "css"
+		},
+		"babel": {
+			"srcs": ["./src/js/app.js"],
+			"concat": "app.js",
+			"dest": "js"
+		},
+		"uglify": {
+			"src": "./public/js/app.js",
+			"rename": "app.min.js",
+			"dest": "js"
+		}	
+	}
+}

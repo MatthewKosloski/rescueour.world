@@ -1,0 +1,14 @@
+//---------------------------
+//
+// Root
+//
+//---------------------------
+
+html {
+	@include typi-base();
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $primary-type;
+	color: $clay;
+	box-sizing: border-box;
+}

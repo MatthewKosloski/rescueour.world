@@ -1,0 +1,41 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "This is my starting point with [Gulp](http://gulpjs.com/) for static websites.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "NODE_ENV=development webpack -w",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.3",
+    "babel-core": "^6.23.1",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.22.0",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "pump": "^1.0.2",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "aos": "^2.1.1",
+    "chart.js": "^2.5.0",
+    "modularscale-sass": "^2.1.1",
+    "normalize.css": "^5.0.0",
+    "typi": "^2.3.0"
+  }
+}

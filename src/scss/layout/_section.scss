@@ -1,0 +1,49 @@
+.l-section {
+	padding: 150px 0;
+}
+
+.l-section--two {
+	@include breakpoint(md) {
+		text-align: left;
+	}
+	text-align: center;
+}
+
+.l-section__left-image,
+.l-section__right-image {
+	text-align: center;
+}
+
+.l-section__left-image {
+	@include breakpoint(md) {
+		text-align: left;
+	}
+}
+
+.l-section__right-image {
+	@include breakpoint(md) {
+		text-align: right;
+	}
+}
+
+.l-section--evidence {
+	background: linear-gradient($white, rgba(129, 231, 126, 0.2) 25%, rgba(129, 231, 126, 0.2) 75%, $white);
+}
+
+.l-section__left-graph {
+	@include breakpoint(md) {
+		padding-right: vr(2);
+	}
+	padding-right: 0;
+}
+
+.l-section__right-graph {
+	@include breakpoint(md) {
+		padding-left: vr(2);
+	}
+	padding-left: 0;
+}
+
+.l-section--outro {
+	padding-top: 0;
+}

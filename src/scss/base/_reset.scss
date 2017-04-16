@@ -1,0 +1,30 @@
+//---------------------------
+//
+// Reset
+//
+//---------------------------
+
+*, 
+::after, 
+::before {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: inherit;
+}
+
+input, 
+button, 
+textarea, 
+select {
+    font: inherit;
+    outline: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}

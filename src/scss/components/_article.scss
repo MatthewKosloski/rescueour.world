@@ -1,0 +1,12 @@
+.c-article__caption {
+	@include font-size(12);
+}
+
+.c-article__title {
+	@include typi((
+		null: 18px,
+		small: 20px,
+		large: 32px
+	));
+	text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+//---------------------------
+//
+// Typography
+//
+//---------------------------
+
+h1,
+.heading-one {
+	@include typi($h1-map);
+	font-family: $secondary-type; // old-standard
+}
+
+h2,
+.heading-two {
+	@include typi($h2-map);
+	font-family: $secondary-type;
+	color: $green;
+}
+
+h3,
+.heading-three {
+	@include typi($h3-map);
+	color: $clay;
+}
+
+h4,
+.heading-four {
+	@include typi($h4-map);
+	color: $clay;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: vr(0.5) 0;
+}
+
+a {
+	color: $brown;
+	&:hover {
+		text-decoration: none;
+	}
+}

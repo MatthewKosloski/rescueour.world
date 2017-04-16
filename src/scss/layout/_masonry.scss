@@ -1,0 +1,13 @@
+.l-masonry {
+	@include breakpoint(md) {
+		column-count: 2;
+	}
+	column-count: 1;
+	column-gap: 0;
+}
+
+.l-masonry__panel {
+	break-inside: avoid;
+	padding: vr(1);
+	margin-bottom: vr(1);
+}
