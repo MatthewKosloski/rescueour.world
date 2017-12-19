@@ -29,7 +29,15 @@
 	@include font-size(20);
 }
 
+.l-hero__credit {
+	a {
+		color: $white;
+	}
+	@include font-size(14);
+}
+
 .l-hero__title,
-.l-hero__subtitle {
+.l-hero__subtitle,
+.l-hero__credit {
 	text-shadow: 0 2px 50px rgba(0, 0, 0, 0.15);
 }
